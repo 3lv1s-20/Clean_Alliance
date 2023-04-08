@@ -1,0 +1,98 @@
+.userDetails{
+    margin: 10px 10px auto;
+    min-width: 50%;
+    padding: 10px;
+   
+  }
+  
+  .sessionsList{
+  
+    margin: 25px 10px auto;
+    min-width: 50%;
+    padding: 10px;
+    height: 200px;
+    
+  }
+  
+  .purchasesList{
+  
+    margin: 25px 10px auto;
+    min-width: 50%;
+    padding: 10px;
+    height: 200px;
+  
+  }
+  
+  .userDetails {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    margin: 0;
+  }
+  
+  .subtitle {
+    color: rgb(120, 196, 120);
+    margin-top: 30px;
+  }
+  
+  .sessionsList, .purchasesList {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .userDetails h1, .userDetails h2 {
+    color: rgb(120, 196, 120);
+  }
+  
+  
+  .labelText {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .table{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .table tr
+  .table th {
+    width: 100%;
+  }
+  
+
+.userDetails, .sessionsList, .purchasesList {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .userDetails, .sessionsList, .purchasesList {
+    width: 90%;
+  }
+}
+
+
+
+
+  

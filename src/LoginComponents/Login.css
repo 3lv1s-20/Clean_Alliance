@@ -1,0 +1,49 @@
+
+  
+  /*
+  .App-header {
+    background-image:url(SharingFood.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    height:200px;
+    width: 100%;
+    margin: auto;
+  }
+  */
+
+  
+  .form{
+    margin: 10px 10px auto;
+    min-width: 50%;
+    padding: 10px;
+    height:100%;
+  }
+  
+  .labelText {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .App{
+      height:auto;
+    }
+  
+    .App-main{
+      height:auto;
+    }
+    .sidebar {
+        min-width: 100%;
+        height: auto;
+    }
+  
+    .registration{
+      min-width:90%;
+      font-size:smaller;
+      height:auto;
+    }
+  
+  }
+  
